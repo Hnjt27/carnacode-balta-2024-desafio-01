@@ -9,10 +9,9 @@
 </head>
 
 <body>
-    <div class="container">
-
-        <header>
-            <h1 class="title">Cálculo de IMC</h1>
+    <div class="container" >
+        <header id="indextitle">
+            <h1 class="title" >Cálculo de IMC</h1>
         </header>
 
         <form method="POST"  action="">
@@ -20,9 +19,9 @@
             <input class="inputext" type="number" placeholder="Altura" required>
             <input class="inputext"  type="number" placeholder="Peso" required>
             <select class="selectext" name="sexo"  required>
-                <option class="selectext" value="" selected disabled>Selecione uma opção</option>
-                <option class="selectext" value="Mas">Masculino</option>
-                <option class="selectext" value="Fem">Feminino</option>   
+                <option  value="" selected disabled>Sexo:</option>
+                <option  value="Mas">Masculino</option>
+                <option  value="Fem">Feminino</option>   
             </select>
             <label> 
                 <input type="radio">
@@ -31,7 +30,7 @@
         
             <div class="buttons">
                 <input class="btnimc" id="CalcIMC" type="submit" value="Calcular IMC">
-                <input class="btnimc" id="EntCalc" type="" value="Entenda o calculo">
+                <input class="btnimc" id="EntCalc" type="button" value="Entenda o calculo">
             </div>
         
         </form>

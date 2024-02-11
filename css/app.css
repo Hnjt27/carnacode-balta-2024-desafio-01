@@ -6,13 +6,13 @@ body{
     margin: 0; 
     padding: 0;
     font-family: Arial;
-  
+    overflow: hidden;
 }
 
 
 header{
     position: fixed;
-    top: 15vh;
+    top: 5vh;
     left: 0;
     width: 100%;
     padding: 10px;
@@ -20,6 +20,9 @@ header{
     font-size: 2vh;
 }
 
+#indextitle{
+    top: 15vh;
+}
 
 form{
     display: flex;
@@ -28,6 +31,7 @@ form{
     justify-content: space-around;
  
 }
+
 
 label{
     font-size: 2vh;
@@ -60,6 +64,7 @@ label{
     border-color:#d6cece;
     margin-bottom: 1vh;
 }
+
 
 .buttons{
 
@@ -97,4 +102,42 @@ label{
 .PageIMG{
     height: 10vh;
 }
+
+.historico{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-around;
+    width: 70vw;
+    height: 5vh;
+    
+}
+
+.headhistorico{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between;
+    width: 70vw;
+    height: 5vh;
+}
+
+.titlehistorico{
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+.tempohistorico{
+    font-size: 2vh;
+}
+
+.bodyhistorico{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between;
+    width: 70vw;
+    height: 5vh;
+}
+
 
