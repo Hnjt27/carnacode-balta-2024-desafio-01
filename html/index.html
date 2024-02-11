@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/app.css">
+    <title>IMC</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1 class="title">Cálculo de IMC</h1>
+        </header>
+
+        <form method="POST"  action="">
+
+            <input class="inputext" type="number" placeholder="Altura" required>
+            <input class="inputext"  type="number" placeholder="Peso" required>
+            <select class="selectext" name="sexo"  required>
+                <option class="selectext" value="" selected disabled>Selecione uma opção</option>
+                <option class="selectext" value="Mas">Masculino</option>
+                <option class="selectext" value="Fem">Feminino</option>   
+            </select>
+            <label> 
+                <input type="radio">
+                    Eu tenho mais 65 anos ou mais      
+            </label>
+        
+            <div class="buttons">
+                <input class="btnimc" id="CalcIMC" type="submit" value="Calcular IMC">
+                <input class="btnimc" id="EntCalc" type="" value="Entenda o calculo">
+            </div>
+        
+        </form>
+        <a href="history.html">historico</a>
+    </div>
+
+   
+   
+</body>
+
+</html>
